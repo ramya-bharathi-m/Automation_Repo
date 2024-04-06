@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 
 import static org.assertj.core.api.AssertionsForInterfaceTypes.assertThat;
 
-
+//TESTNG has main method so no need of main method
 public class testNG00 {
     //Try to create put request
     //before test
