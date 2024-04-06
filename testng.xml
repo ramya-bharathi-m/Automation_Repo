@@ -4,7 +4,8 @@
     <test verbose="2" preserve-order="true" name="C:/Users/ramya/IdeaProjects/Automation_Repo">
         <classes>
             <class name="test.api.crud.get.GetNonBDDTestNG">
-                <methods><include name="getBookingPositive"/>
+                <methods>
+                    <include name="getBookingPositive"/>
                     <include name="getBookingNegative1"/>
                     <include name="getBookingNegative2"/>
                 </methods>

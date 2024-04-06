@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- WE CAN HAVE AS MANY TEST NG XML AS POSSIBLE
+     CAN HAVE SEPARATE TEST CASE FILE FOR STAGING ENVIRONMENT
+     CAN HAVE SEPARATE TEST CASE CLASS / METHODS REQUIRED FOR TESTING IN PRODUCTION ENV
+
+     JUST RUN THE TEST NG XML FILE RATHER THAN GOING TO THE CLASS ONE BY ONE
+
+     IT PROVIDES A VAST COLLECTION TO RUN EASILY-->
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/ramya/IdeaProjects/Automation_Repo">
+        <classes>
+            <class name="test.api.crud.post.BDDStyle">
+            </class>
+        </classes>
+    </test>
+</suite>
